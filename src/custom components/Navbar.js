@@ -1,4 +1,4 @@
-//use 'rfc' to create react's function based component
+//use 'rfc' to create react's function-based component
 //we created bootstrap's navbar in a separate file.
 import React from 'react'
 import PropTypes from 'prop-types'

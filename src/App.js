@@ -1,4 +1,5 @@
 import './App.css'
+import Login from './custom components/Login';
 import Navbar from './custom components/Navbar'
 
 function App() {
@@ -6,6 +7,10 @@ function App() {
   return (
     <>
       <Navbar title="Notes Distribution Center" />  
+      <div className="container mt-3 d-flex justify-content-center align-items-center">
+        <Login/>
+      </div>
+      
     </>
   );
 }
